@@ -69,6 +69,37 @@
     margin-top: 30px;
 }
 
+.down-select{
+    line-height: 16px;
+    font-size: 7px;
+    vertical-align: middle;
+}
+
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    display: inline-block;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    display: inline-block;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-right: 2px;
+
+}
+
 /* Generics  */
 body{
     font-family:  sans-serif;
@@ -94,9 +125,11 @@ label{
 }
 
 li{
-    font-size: medium;
+    line-height: 16px;
+    font-size: 16px;
     list-style-type: none;
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 li.label{
