@@ -28,3 +28,7 @@ header, nav, main{
 }
 
 /* Utilities  */
+.logo-container{
+    margin-bottom: 10px;
+    padding: 10px;
+}
