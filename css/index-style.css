@@ -28,10 +28,31 @@ header, nav, main{
 }
 
 /* Utilities  */
+
 .container{
     margin: auto;
     height: auto;
     width: 600px;
+}
+
+/* navogators container  */
+.box{
+    font-size: 12px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+.box.task{
+    color: white;
+    background-color: rgb(70, 148, 232);
+    border: 1px solid rgb(70, 148, 232);
+    border-radius: 5px;
+}
+
+.box.section{
+    color: grey;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .logo-container{
@@ -43,4 +64,5 @@ header, nav, main{
     border: 1px solid white;
     border-radius: 5px 5px 0 0;
     margin-bottom: 3px;
+    padding: 5px 20px;
 }
