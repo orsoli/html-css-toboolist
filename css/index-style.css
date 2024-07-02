@@ -28,7 +28,19 @@ header, nav, main{
 }
 
 /* Utilities  */
+.container{
+    margin: auto;
+    height: auto;
+    width: 600px;
+}
+
 .logo-container{
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.navigator{
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 3px;
 }
