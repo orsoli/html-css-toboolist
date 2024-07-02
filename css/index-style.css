@@ -5,11 +5,26 @@
     box-sizing: border-box;
 }
 
+#logo{
+    vertical-align: middle;
+}
+
+
+
 /* Generics  */
 body{
+    font-family:  sans-serif;
     background-color: lightgrey;
+}
+
+h1{
+    display: inline;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 header, nav, main{
     background-color: white;
 }
+
+/* Utilities  */
