@@ -9,26 +9,7 @@
     vertical-align: middle;
 }
 
-
-
-/* Generics  */
-body{
-    font-family:  sans-serif;
-    background-color: lightgrey;
-}
-
-h1{
-    display: inline;
-    line-height: 50px;
-    vertical-align: middle;
-}
-
-header, nav, main{
-    background-color: white;
-}
-
 /* Utilities  */
-
 .container{
     margin: auto;
     height: auto;
@@ -64,5 +45,29 @@ header, nav, main{
     border: 1px solid white;
     border-radius: 5px 5px 0 0;
     margin-bottom: 3px;
+    padding: 5px 20px;
+}
+
+/* Generics  */
+body{
+    font-family:  sans-serif;
+    background-color: lightgrey;
+}
+
+h1{
+    display: inline;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+header, nav, main{
+    background-color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+main>div{
     padding: 5px 20px;
 }
